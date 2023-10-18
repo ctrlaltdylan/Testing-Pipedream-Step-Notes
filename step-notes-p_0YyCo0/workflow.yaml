@@ -1,9 +1,0 @@
-schema: workflow/2022.04
-name: Step Notes
-triggers:
-- id: sub_y5wUWk
-steps:
-- namespace: code
-  runtime: nodejs18.x
-  uses: "./code/entry.js"
-
