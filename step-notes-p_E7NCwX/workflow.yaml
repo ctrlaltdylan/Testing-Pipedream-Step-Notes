@@ -1,0 +1,11 @@
+schema: workflow/2022.04
+name: Step Notes
+settings:
+  error_notification: true
+triggers:
+- id: sub_kn5Uq1
+steps:
+- namespace: code
+  runtime: nodejs18.x
+  uses: "./code/entry.js"
+
